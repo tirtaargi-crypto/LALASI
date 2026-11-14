@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Compact 2x2 widget: artwork on top, previous / play / next underneath -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:theme="@style/Theme.Widget.mochy">
+
+    <ImageView
+        android:id="@+id/widget_glass_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:importantForAccessibility="no" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/widget_compact_album_art"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/album_art" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageButton
+                android:id="@+id/widget_compact_prev"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_widget_skip_previous"
+                android:contentDescription="@string/previous" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/widget_compact_play_container"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/widget_play_circle_glass">
+
+            <ImageView
+                android:id="@+id/widget_compact_play_pause"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_widget_play"
+                android:contentDescription="@string/play_pause" />
+        </FrameLayout>
+
+        <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageButton
+                android:id="@+id/widget_compact_next"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_widget_skip_next"
+                android:contentDescription="@string/next" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+</FrameLayout>

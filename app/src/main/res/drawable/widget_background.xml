@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Liquid glass widget body: see-through bluish base, bright frosted sheen, specular edge -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><shape android:shape="rectangle"><solid android:color="#332B3550" /><corners android:radius="30dp" /></shape></item>
+    <item><shape android:shape="rectangle"><gradient android:angle="315" android:startColor="#4DFFFFFF" android:centerColor="#0FFFFFFF" android:endColor="#2EFFFFFF" /><corners android:radius="30dp" /></shape></item>
+    <item><shape android:shape="rectangle"><stroke android:width="1.4dp" android:color="#8CFFFFFF" /><corners android:radius="30dp" /></shape></item>
+    <item android:top="1.4dp" android:left="1.4dp" android:right="1.4dp" android:bottom="1.4dp"><shape android:shape="rectangle"><stroke android:width="0.8dp" android:color="#26FFFFFF" /><corners android:radius="29dp" /></shape></item>
+</layer-list>

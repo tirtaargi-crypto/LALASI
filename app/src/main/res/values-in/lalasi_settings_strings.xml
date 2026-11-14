@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lalasi_set_appearance">Tampilan</string>
+    <string name="lalasi_set_appearance_sub">Tema, blur, animasi &amp; gaya pemutar</string>
+    <string name="lalasi_set_playback">Pemutaran</string>
+    <string name="lalasi_set_playback_sub">Perilaku &amp; kontrol pemutaran musik</string>
+    <string name="lalasi_set_lyrics">Lirik</string>
+    <string name="lalasi_set_lyrics_sub">Tampilan &amp; animasi lirik</string>
+    <string name="lalasi_set_audio">Audio</string>
+    <string name="lalasi_set_audio_sub">Equalizer, efek &amp; keluaran audio</string>
+    <string name="lalasi_set_streaming">Kualitas Streaming</string>
+    <string name="lalasi_set_streaming_sub">Kualitas streaming &amp; sumber</string>
+    <string name="lalasi_set_storage">Penyimpanan</string>
+    <string name="lalasi_set_storage_sub">Cache &amp; lagu unduhan</string>
+    <string name="lalasi_set_integrations_sub">Last.fm, Libre.fm &amp; YouTube Music</string>
+    <string name="lalasi_set_modules_sub">Sumber &amp; ekstensi</string>
+    <string name="lalasi_set_about">Tentang LALASI</string>
+    <string name="lalasi_set_about_sub">Versi aplikasi &amp; informasi</string>
+    <string name="lalasi_set_dev_info">Informasi Developer</string>
+    <string name="lalasi_set_dev_by">Dibuat oleh danrey</string>
+    <string name="lalasi_search_clear_all">Hapus Semua</string>
+    <string name="lalasi_search_empty">Belum ada pencarian</string>
+    <string name="lalasi_search_empty_hint">Lagu, artis, album, dan playlist yang kamu cari akan muncul di sini.</string>
+</resources>
