@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lalasi_set_appearance">Appearance</string>
+    <string name="lalasi_set_appearance_sub">Theme, blur, animation &amp; player styles</string>
+    <string name="lalasi_set_playback">Playback</string>
+    <string name="lalasi_set_playback_sub">Playback behaviour &amp; controls</string>
+    <string name="lalasi_set_lyrics">Lyrics</string>
+    <string name="lalasi_set_lyrics_sub">Lyrics display &amp; animation</string>
+    <string name="lalasi_set_audio">Audio</string>
+    <string name="lalasi_set_audio_sub">Equalizer, effects &amp; output</string>
+    <string name="lalasi_set_streaming">Streaming Quality</string>
+    <string name="lalasi_set_streaming_sub">Stream quality &amp; sources</string>
+    <string name="lalasi_set_storage">Storage</string>
+    <string name="lalasi_set_storage_sub">Cache &amp; downloaded songs</string>
+    <string name="lalasi_set_integrations_sub">Last.fm, Libre.fm &amp; YouTube Music</string>
+    <string name="lalasi_set_modules_sub">Sources &amp; extensions</string>
+    <string name="lalasi_set_about">About LALASI</string>
+    <string name="lalasi_set_about_sub">App version &amp; information</string>
+    <string name="lalasi_set_dev_info">Developer Information</string>
+    <string name="lalasi_set_dev_by">Made by danrey</string>
+    <string name="lalasi_search_clear_all">Clear all</string>
+    <string name="lalasi_search_empty">No recent searches</string>
+    <string name="lalasi_search_empty_hint">Songs, artists, albums and playlists you search for will show up here.</string>
+</resources>
