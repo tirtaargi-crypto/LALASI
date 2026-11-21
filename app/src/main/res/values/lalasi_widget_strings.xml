@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_lalasi_compact">LALASI Compact Player</string>
+    <string name="widget_lalasi_square">LALASI Square Player</string>
+    <string name="widget_lalasi_wide">LALASI Wide Player</string>
+    <string name="widget_lalasi_expanded">LALASI Expanded Player</string>
+    <string name="widget_lalasi_large">LALASI Large Square</string>
+    <string name="widget_lalasi_lyrics">LALASI Live Lyrics</string>
+    <string name="widget_lalasi_compact_lyrics">LALASI Compact Lyrics</string>
+    <string name="widget_lalasi_wide_lyrics">LALASI Wide Lyrics</string>
+    <string name="widget_lalasi_minimal">LALASI Minimal Controls</string>
+    <string name="widget_lalasi_artwork">LALASI Artwork Player</string>
+    <string name="widget_lalasi_compact_desc">Small player: artwork, title, artist, Play/Pause and Next</string>
+    <string name="widget_lalasi_square_desc">Square player with artwork, progress and music controls</string>
+    <string name="widget_lalasi_wide_desc">Horizontal player: artwork, song info and controls</string>
+    <string name="widget_lalasi_expanded_desc">Large artwork, full controls, progress and duration</string>
+    <string name="widget_lalasi_large_desc">Artwork-first square player with full controls</string>
+    <string name="widget_lalasi_lyrics_desc">Synchronized lyrics with the previous and next line</string>
+    <string name="widget_lalasi_compact_lyrics_desc">Compact lyrics with song info</string>
+    <string name="widget_lalasi_wide_lyrics_desc">Lyrics in a horizontal layout</string>
+    <string name="widget_lalasi_minimal_desc">Title, artist, Play/Pause and Next</string>
+    <string name="widget_lalasi_artwork_desc">Artwork-focused player with minimal info and controls</string>
+    <string name="widget_cd_shuffle">Shuffle</string>
+    <string name="widget_cd_repeat">Repeat</string>
+    <string name="widget_cd_favorite">Favorite</string>
+    <string name="widget_lyrics_empty">Lyrics unavailable</string>
+    <string name="widget_lyrics_instrumental">Instrumental</string>
+    <string name="widget_preview_title">Golden Hour</string>
+    <string name="widget_preview_artist">LALASI Sessions</string>
+    <string name="widget_preview_lyric_prev">Light is falling slow</string>
+    <string name="widget_preview_lyric_cur">Hold the glow a little longer</string>
+    <string name="widget_preview_lyric_next">Let the evening show</string>
+</resources>

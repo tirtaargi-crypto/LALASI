@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_lalasi_compact">LALASI Pemutar Ringkas</string>
+    <string name="widget_lalasi_square">LALASI Pemutar Persegi</string>
+    <string name="widget_lalasi_wide">LALASI Pemutar Lebar</string>
+    <string name="widget_lalasi_expanded">LALASI Pemutar Lengkap</string>
+    <string name="widget_lalasi_large">LALASI Persegi Besar</string>
+    <string name="widget_lalasi_lyrics">LALASI Lirik Langsung</string>
+    <string name="widget_lalasi_compact_lyrics">LALASI Lirik Ringkas</string>
+    <string name="widget_lalasi_wide_lyrics">LALASI Lirik Lebar</string>
+    <string name="widget_lalasi_minimal">LALASI Kontrol Minimal</string>
+    <string name="widget_lalasi_artwork">LALASI Pemutar Artwork</string>
+    <string name="widget_lalasi_compact_desc">Pemutar kecil: artwork, judul, artis, Putar/Jeda, dan Lanjut</string>
+    <string name="widget_lalasi_square_desc">Pemutar persegi dengan artwork, progres, dan kontrol musik</string>
+    <string name="widget_lalasi_wide_desc">Pemutar horizontal: artwork, info lagu, dan kontrol</string>
+    <string name="widget_lalasi_expanded_desc">Artwork besar, kontrol lengkap, progres, dan durasi</string>
+    <string name="widget_lalasi_large_desc">Pemutar persegi berfokus artwork dengan kontrol lengkap</string>
+    <string name="widget_lalasi_lyrics_desc">Lirik tersinkron dengan baris sebelumnya dan berikutnya</string>
+    <string name="widget_lalasi_compact_lyrics_desc">Lirik ringkas dengan info lagu</string>
+    <string name="widget_lalasi_wide_lyrics_desc">Lirik dalam tata letak horizontal</string>
+    <string name="widget_lalasi_minimal_desc">Judul, artis, Putar/Jeda, dan Lanjut</string>
+    <string name="widget_lalasi_artwork_desc">Pemutar berfokus artwork dengan info dan kontrol minimal</string>
+    <string name="widget_cd_shuffle">Acak</string>
+    <string name="widget_cd_repeat">Ulangi</string>
+    <string name="widget_cd_favorite">Favorit</string>
+    <string name="widget_lyrics_empty">Lirik tidak tersedia</string>
+    <string name="widget_lyrics_instrumental">Instrumental</string>
+    <string name="widget_preview_title">Golden Hour</string>
+    <string name="widget_preview_artist">LALASI Sessions</string>
+    <string name="widget_preview_lyric_prev">Cahaya turun perlahan</string>
+    <string name="widget_preview_lyric_cur">Tahan kilau ini sedikit lebih lama</string>
+    <string name="widget_preview_lyric_next">Biarkan senja bicara</string>
+</resources>

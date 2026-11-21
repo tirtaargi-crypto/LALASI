@@ -1,0 +1,5 @@
+<!-- Clear-glass base behind the dynamically rendered album-art glass layer; the same on every Android version and theme. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#12000000" />
+    <corners android:radius="30dp" />
+</shape>

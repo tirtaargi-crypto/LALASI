@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="streak_days">Streak %d hari</string>
+    <string name="streak_none_title">Mulai streak kamu</string>
+    <string name="streak_none_hint">Dengerin satu lagu hari ini buat nyalain api pertamamu</string>
+    <string name="streak_keep_alive">Dengerin musik hari ini biar apimu tetap nyala</string>
+    <string name="streak_next">Hari ini aman. %1$d hari lagi menuju %2$d hari</string>
+    <string name="streak_celebrate_title">%d hari beruntun!</string>
+    <string name="streak_celebrate_3">Apimu udah nyala. Balik lagi besok ya biar terus menyala.</string>
+    <string name="streak_celebrate_10">Dengerin musik udah jadi kebiasaanmu.</string>
+    <string name="streak_celebrate_30">Sebulan penuh tanpa putus. Keren banget.</string>
+    <string name="streak_celebrate_100">100 hari. Apimu udah jadi legenda.</string>
+    <string name="streak_celebrate_many">Rekor baru buat apimu. Terus nyalakan.</string>
+    <string name="streak_continue">Lanjut</string>
+    <string name="home_chip_all">Semua</string>
+    <string name="home_chip_music">Lagu</string>
+    <string name="home_chip_playlists">Playlist</string>
+    <string name="home_chip_albums">Album</string>
+</resources>

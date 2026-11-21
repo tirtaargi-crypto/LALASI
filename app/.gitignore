@@ -1,0 +1,5 @@
+/build
+*.keystore
+
+# the shared signing key is committed on purpose: every build is signed with it, so updates install over older builds
+!persistent-debug.keystore

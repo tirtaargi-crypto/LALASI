@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="streak_days">%d-day streak</string>
+    <string name="streak_none_title">Start your streak</string>
+    <string name="streak_none_hint">Listen to a song today to light your first flame</string>
+    <string name="streak_keep_alive">Listen today to keep your flame alive</string>
+    <string name="streak_next">Today is safe. %1$d more days to reach %2$d</string>
+    <string name="streak_celebrate_title">%d days in a row!</string>
+    <string name="streak_celebrate_3">Your flame is lit. Come back tomorrow to keep it going.</string>
+    <string name="streak_celebrate_10">Music is becoming your daily habit.</string>
+    <string name="streak_celebrate_30">A whole month without a break. Impressive.</string>
+    <string name="streak_celebrate_100">100 days. Your flame is a legend.</string>
+    <string name="streak_celebrate_many">A new record for your flame. Keep it burning.</string>
+    <string name="streak_continue">Continue</string>
+    <string name="home_chip_all">All</string>
+    <string name="home_chip_music">Songs</string>
+    <string name="home_chip_playlists">Playlists</string>
+    <string name="home_chip_albums">Albums</string>
+</resources>
