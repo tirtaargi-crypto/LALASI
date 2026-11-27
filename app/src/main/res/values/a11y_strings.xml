@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="player_previous">Previous song</string>
+    <string name="player_next">Next song</string>
+    <string name="player_replay">Replay</string>
+</resources>

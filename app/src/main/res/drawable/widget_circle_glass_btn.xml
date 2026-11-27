@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Circular liquid-glass button: translucent body, bright rim, a curved highlight on top and a soft glow below. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"><layer-list>
+        <item><shape android:shape="oval"><solid android:color="#66FFFFFF" /></shape></item>
+        <item><shape android:shape="oval"><stroke android:width="1dp" android:color="#CCFFFFFF" /></shape></item>
+    </layer-list></item>
+    <item><layer-list>
+        <item><shape android:shape="oval"><gradient android:angle="270" android:startColor="#40FFFFFF" android:endColor="#12FFFFFF" /></shape></item>
+        <item><inset android:insetLeft="16%" android:insetRight="16%" android:insetTop="5%" android:insetBottom="54%">
+            <shape android:shape="oval"><gradient android:angle="270" android:startColor="#80FFFFFF" android:endColor="#00FFFFFF" /></shape>
+        </inset></item>
+        <item><inset android:insetLeft="22%" android:insetRight="22%" android:insetTop="62%" android:insetBottom="6%">
+            <shape android:shape="oval"><gradient android:angle="90" android:startColor="#38BFE4FF" android:endColor="#00BFE4FF" /></shape>
+        </inset></item>
+        <item><shape android:shape="oval"><stroke android:width="1dp" android:color="#8CFFFFFF" /></shape></item>
+        <item><inset android:insetLeft="1.5dp" android:insetRight="1.5dp" android:insetTop="1.5dp" android:insetBottom="1.5dp">
+            <shape android:shape="oval"><stroke android:width="0.5dp" android:color="#33A8D8FF" /></shape>
+        </inset></item>
+    </layer-list></item>
+</selector>

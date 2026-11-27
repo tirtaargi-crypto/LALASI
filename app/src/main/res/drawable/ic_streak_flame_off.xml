@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- the same flame, grey: the streak is waiting for today's first minute of music -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#FF5A5F6B"
+        android:pathData="M48,6 C50,20 64,28 71,43 C77,56 75,70 66,79 C60,85 54,88 48,88 C42,88 36,85 30,79 C21,70 19,56 26,44 C29,50 32,53 36,54 C33,40 38,22 48,6 Z" />
+    <path
+        android:fillColor="#FF787D8A"
+        android:pathData="M48,40 C50,49 58,53 61,62 C63,70 59,77 53,80 C51,81 49.5,81.5 48,81.5 C46.5,81.5 45,81 43,80 C37,77 33,70 35,62 C36.5,57 39,55 41,54 C41,60 43,62 45,62 C44,54 45,46 48,40 Z" />
+</vector>

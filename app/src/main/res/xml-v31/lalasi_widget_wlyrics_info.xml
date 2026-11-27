@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp"
+    android:minHeight="110dp"
+    android:minResizeWidth="180dp"
+    android:minResizeHeight="110dp"
+    android:targetCellWidth="4"
+    android:targetCellHeight="2"
+    android:maxResizeWidth="320dp"
+    android:maxResizeHeight="320dp"
+    android:updatePeriodMillis="0"
+    android:previewImage="@drawable/widget_preview_wlyrics"
+    android:previewLayout="@layout/widget_lw_wlyrics_preview"
+    android:initialLayout="@layout/widget_lw_wlyrics"
+    android:description="@string/widget_lalasi_wide_lyrics_desc"
+    android:widgetCategory="home_screen"
+    android:resizeMode="horizontal|vertical" />

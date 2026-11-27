@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    
+    <!-- Widget colors for light mode -->
+    <color name="widget_text_primary">#FFFFFFFF</color>
+    <color name="widget_text_secondary">#CCFFFFFF</color>
+    <color name="window_background">#000000</color>
+    <!-- LALASI launch: the system splash window and the Compose loading overlay share this colour -->
+    <color name="lalasi_launch_background">#FF000000</color>
+    <!-- light theme: same background as the light colour scheme (Theme.kt), dark logo + ink -->
+    <color name="lalasi_launch_background_light">#FFF7F8FB</color>
+    <color name="lalasi_launch_ink_light">#FF111216</color>
+</resources>

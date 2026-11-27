@@ -1,0 +1,1 @@
+LALASI 1.0.9: loading screen langsung animasi tanpa kedip, widget seragam tampilan Artwork, gelembung navbar dengan highlight, transisi halaman lebih halus. Update langsung tanpa uninstall.

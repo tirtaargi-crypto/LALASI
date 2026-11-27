@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Smoky blue-grey liquid glass shown until the album-art glass is rendered. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><shape android:shape="rectangle"><gradient android:angle="315" android:startColor="#CC46526B" android:centerColor="#BB2B3447" android:endColor="#CC1A2030" /><corners android:radius="30dp" /></shape></item>
+    <item><shape android:shape="rectangle"><gradient android:angle="270" android:startColor="#33FFFFFF" android:centerColor="#05FFFFFF" android:endColor="#00FFFFFF" /><corners android:radius="30dp" /></shape></item>
+    <item><shape android:shape="rectangle"><stroke android:width="1dp" android:color="#80FFFFFF" /><corners android:radius="30dp" /></shape></item>
+</layer-list>

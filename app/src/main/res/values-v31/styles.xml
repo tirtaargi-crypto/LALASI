@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Static splash: the logo only, no animation. The Compose overlay shows the same logo in the same place, then fades out. -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="android:windowSplashScreenBackground">@color/lalasi_launch_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/lalasi_splash_logo</item>
+        <item name="android:windowSplashScreenAnimationDuration">0</item>
+        <item name="postSplashScreenTheme">@style/Theme.lalasi</item>
+    </style>
+
+    <style name="Theme.App.Starting.Icon" parent="Theme.App.Starting" />
+
+    <!-- light theme: light background, dark logo (picked per launch with setSplashScreenTheme, android 13+) -->
+    <style name="Theme.App.Starting.Light" parent="Theme.App.Starting">
+        <item name="android:windowSplashScreenBackground">@color/lalasi_launch_background_light</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/lalasi_splash_logo_light</item>
+    </style>
+
+    <!-- Widget Theme for Android 12+ with Dynamic Colors -->
+    <style name="Theme.Widget.lalasi" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+</resources>

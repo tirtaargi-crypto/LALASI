@@ -1,0 +1,21 @@
+LALASI 1.0.8 — Git push commands (Termux)
+
+1. Put LALASI-1_0_8-LIQUID-GLASS-WIDGETS-LOADING.zip in /sdcard/Download/.
+2. Build and test first (Android Studio / GitHub Actions); this source was not compiled when it was produced.
+3. Run in Termux (keeps your existing history; replace the path if your clone is elsewhere):
+
+set -e
+cd ~/LALASI          # your existing clone of https://github.com/tirtaargi-crypto/LALASI.git
+git checkout -b widgets-liquid-glass-1.0.8
+unzip -q -o /sdcard/Download/LALASI-1_0_8-LIQUID-GLASS-WIDGETS-LOADING.zip -d /tmp/lalasi-new
+cp -r /tmp/lalasi-new/LALASI-main/. .
+git add -A
+git commit -m "LALASI 1.0.8: Liquid Glass widget collection, Live Lyrics widget, new minimal loading animation"
+git push -u origin widgets-liquid-glass-1.0.8
+
+Then open a pull request / merge into main after the build passes.
+
+Fresh clone alternative (replaces the remote main branch only if you add --force yourself):
+git init && git add . && git commit -m "LALASI 1.0.8" && git branch -M main
+git remote add origin https://github.com/tirtaargi-crypto/LALASI.git
+git push -u origin main
